@@ -63,6 +63,8 @@ public class PostAndUpdateTestCases extends BaseClass{
 		//Validating the newely created user name
 		log.info("Validating the updated email of an existing user");
 		Assert.assertNotSame(updatedUserEmailReq!=userEmail, existingUserIterator);
+		
+		
 	}
 	
 }
