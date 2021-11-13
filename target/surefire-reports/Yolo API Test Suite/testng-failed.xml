@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Yolo API Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="yoloAPITest(failed)" verbose="0">
+    <classes>
+      <class name="com.yolo.api.test.suite.invoker.PostTestCases">
+        <methods>
+          <include name="postCreateUser"/>
+        </methods>
+      </class> <!-- com.yolo.api.test.suite.invoker.PostTestCases -->
+    </classes>
+  </test> <!-- yoloAPITest(failed) -->
+</suite> <!-- Failed suite [Yolo API Test Suite] -->

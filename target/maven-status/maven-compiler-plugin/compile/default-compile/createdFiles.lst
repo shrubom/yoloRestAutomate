@@ -1,0 +1,7 @@
+com\yolo\api\test\suite\utils\BaseClass.class
+com\yolo\api\test\suite\utils\RequestHeader.class
+com\yolo\api\test\suite\utils\Constants.class
+com\yolo\api\test\suite\rest\assured\config\RestAssuredConfigurations.class
+com\yolo\api\test\suite\response\body\CreateNewUserResponse.class
+com\yolo\api\test\suite\request\body\CreateNewUserRequest.class
+com\yolo\api\test\suite\utils\RandomNameGenerator.class
