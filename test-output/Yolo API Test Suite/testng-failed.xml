@@ -3,11 +3,11 @@
 <suite thread-count="2" parallel="tests" name="Failed suite [Yolo API Test Suite]" guice-stage="DEVELOPMENT" verbose="10">
   <test thread-count="2" parallel="tests" name="yoloAPITest(failed)" verbose="10">
     <classes>
-      <class name="com.yolo.api.test.suite.invoker.PostAndUpdateTestCases">
+      <class name="com.yolo.api.test.suite.invoker.DeleteTestCases">
         <methods>
-          <include name="putUpdateUser"/>
+          <include name="deleteUser"/>
         </methods>
-      </class> <!-- com.yolo.api.test.suite.invoker.PostAndUpdateTestCases -->
+      </class> <!-- com.yolo.api.test.suite.invoker.DeleteTestCases -->
     </classes>
   </test> <!-- yoloAPITest(failed) -->
 </suite> <!-- Failed suite [Yolo API Test Suite] -->

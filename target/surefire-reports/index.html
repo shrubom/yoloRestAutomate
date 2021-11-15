@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Yolo_API_Test_Suite" class="navigator-link">
-              <span class="suite-name border-failed">Yolo API Test Suite</span>
+              <span class="suite-name border-passed">Yolo API Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Yolo_API_Test_Suite" class="navigator-link ">
-                    <span>C:\Users\shrut\eclipse-workspace\yoloproject\Yolo-API-Test-Suite\YoloAPITests.xml</span>
+                    <span>C:\Users\shrut\git\yoloRestAutomate\YoloAPITests.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Yolo_API_Test_Suite" class="hide-methods failed suite-Yolo_API_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Yolo_API_Test_Suite -->
-                      <a href="#" panel-name="suite-Yolo_API_Test_Suite" class="show-methods failed suite-Yolo_API_Test_Suite"> (show)</a> <!-- show-methods failed suite-Yolo_API_Test_Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Yolo_API_Test_Suite" class="hide-methods passed suite-Yolo_API_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Yolo_API_Test_Suite -->
+                      <a href="#" panel-name="suite-Yolo_API_Test_Suite" class="show-methods passed suite-Yolo_API_Test_Suite"> (show)</a> <!-- show-methods passed suite-Yolo_API_Test_Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Yolo_API_Test_Suite">
+                    <div class="method-list-content passed suite-Yolo_API_Test_Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Yolo_API_Test_Suite" title="com.yolo.api.test.suite.invoker.PostTestCases" class="method navigator-link" hash-for-method="postCreateUser">postCreateUser</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Yolo_API_Test_Suite" title="com.yolo.api.test.suite.invoker.PostAndUpdateTestCases" class="method navigator-link" hash-for-method="addUserPost">addUserPost</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Yolo_API_Test_Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Yolo_API_Test_Suite" title="com.yolo.api.test.suite.invoker.PostAndUpdateTestCases" class="method navigator-link" hash-for-method="addUserTodo">addUserTodo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Yolo_API_Test_Suite" title="com.yolo.api.test.suite.invoker.GetTestCases" class="method navigator-link" hash-for-method="getListOfPosts">getListOfPosts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Yolo_API_Test_Suite" title="com.yolo.api.test.suite.invoker.PostAndUpdateTestCases" class="method navigator-link" hash-for-method="postCreateUser">postCreateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Yolo_API_Test_Suite" title="com.yolo.api.test.suite.invoker.PostAndUpdateTestCases" class="method navigator-link" hash-for-method="putUpdateUser">putUpdateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Yolo_API_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,49 +137,61 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Yolo_API_Test_Suite" class="panel Yolo_API_Test_Suite">
-          <div class="suite-Yolo_API_Test_Suite-class-failed">
+          <div class="suite-Yolo_API_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.yolo.api.test.suite.invoker.PostTestCases</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.yolo.api.test.suite.invoker.GetTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getListOfPosts">
+                  </a> <!-- getListOfPosts -->
+                  <span class="method-name">getListOfPosts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Yolo_API_Test_Suite-class-passed -->
+          <div class="suite-Yolo_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.yolo.api.test.suite.invoker.PostAndUpdateTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUserPost">
+                  </a> <!-- addUserPost -->
+                  <span class="method-name">addUserPost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUserTodo">
+                  </a> <!-- addUserTodo -->
+                  <span class="method-name">addUserTodo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="postCreateUser">
                   </a> <!-- postCreateUser -->
                   <span class="method-name">postCreateUser</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.HashSet.iterator()&quot; because &quot;this.newUserRes&quot; is null
-	at com.yolo.api.test.suite.invoker.PostTestCases.postCreateUser(PostTestCases.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-
-</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putUpdateUser">
+                  </a> <!-- putUpdateUser -->
+                  <span class="method-name">putUpdateUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Yolo_API_Test_Suite-class-failed -->
+          </div> <!-- suite-Yolo_API_Test_Suite-class-passed -->
         </div> <!-- panel Yolo_API_Test_Suite -->
         <div panel-name="test-xml-Yolo_API_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\shrut\eclipse-workspace\yoloproject\Yolo-API-Test-Suite\YoloAPITests.xml</span>
+            <span class="header-content">C:\Users\shrut\git\yoloRestAutomate\YoloAPITests.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -168,7 +200,9 @@
 &lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Yolo API Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;yoloAPITest&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.yolo.api.test.suite.invoker.PostTestCases&quot;/&gt;
+      &lt;class name=&quot;com.yolo.api.test.suite.invoker.PostAndUpdateTestCases&quot;/&gt;
+      &lt;class name=&quot;com.yolo.api.test.suite.invoker.GetTestCases&quot;/&gt;
+      &lt;class name=&quot;com.yolo.api.test.suite.invoker.DeleteTestCases&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- yoloAPITest --&gt;
 &lt;/suite&gt; &lt;!-- Yolo API Test Suite --&gt;
@@ -182,7 +216,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">yoloAPITest (1 class)</span>
+                <span class="test-name">yoloAPITest (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,7 +230,23 @@
               <span class="test-group-name">yoloAPITest</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">addUserPost</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addUserTodo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getListOfPosts</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">postCreateUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">putUpdateUser</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -216,16 +266,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'postCreateUser')
-data.setCell(0, 2, 'com.yolo.api.test.suite.invoker.PostTestCases')
-data.setCell(0, 3, 2892);
+data.setCell(0, 2, 'com.yolo.api.test.suite.invoker.PostAndUpdateTestCases')
+data.setCell(0, 3, 3865);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'putUpdateUser')
+data.setCell(1, 2, 'com.yolo.api.test.suite.invoker.PostAndUpdateTestCases')
+data.setCell(1, 3, 2376);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addUserTodo')
+data.setCell(2, 2, 'com.yolo.api.test.suite.invoker.PostAndUpdateTestCases')
+data.setCell(2, 3, 2047);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addUserPost')
+data.setCell(3, 2, 'com.yolo.api.test.suite.invoker.PostAndUpdateTestCases')
+data.setCell(3, 3, 2041);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getListOfPosts')
+data.setCell(4, 2, 'com.yolo.api.test.suite.invoker.GetTestCases')
+data.setCell(4, 3, 0);
 window.suiteTableData['Yolo_API_Test_Suite']= { tableData: data, tableDiv: 'times-div-Yolo_API_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Yolo_API_Test_Suite">
               </div> <!-- times-div-Yolo_API_Test_Suite -->
             </div> <!-- times-div -->
@@ -251,12 +317,29 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.yolo.api.test.suite.invoker.PostTestCases</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.yolo.api.test.suite.invoker.PostAndUpdateTestCases</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">postCreateUser</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">putUpdateUser</span>
+                <span class="method-start">3868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUserPost</span>
+                <span class="method-start">6245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addUserTodo</span>
+                <span class="method-start">8287 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yolo.api.test.suite.invoker.GetTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getListOfPosts</span>
+                <span class="method-start">10335 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

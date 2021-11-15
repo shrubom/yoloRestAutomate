@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="2.898" tests="1" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="10.332" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="15.0.2+7-27"/>
     <property name="sun.boot.library.path" value="C:\Users\shrut\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\shrut\eclipse-workspace\yoloproject\Yolo-API-Test-Suite"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\shrut\git\yoloRestAutomate"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="ZA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\shrut\eclipse-workspace\yoloproject\Yolo-API-Test-Suite"/>
+    <property name="user.dir" value="C:\Users\shrut\git\yoloRestAutomate"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
     <property name="os.arch" value="amd64"/>
@@ -24,7 +24,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\shrut\eclipse-workspace\yoloproject\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10283910553177308259.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\shrut\eclipse-workspace\yoloprojectautomation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7063541540220229268.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Users\shrut\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/shrut/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/shrut/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Python39\Scripts\;C:\Python39\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\shrut\AppData\Local\Microsoft\WindowsApps;;C:\Users\shrut\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\shrut\AppData\Roaming\npm;C:\Users\shrut\eclipse\jee-2021-03\eclipse;;."/>
     <property name="jdk.debug" value="release"/>
@@ -40,14 +40,14 @@
     <property name="java.class.path" value="C:\Users\shrut\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="15"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.home" value="C:\Users\shrut\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="15.0.2"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\shrut\eclipse-workspace\yoloproject\Yolo-API-Test-Suite\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\shrut\git\yoloRestAutomate\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2021-01-19"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -55,15 +55,9 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="postCreateUser" classname="com.yolo.api.test.suite.invoker.PostTestCases" time="2.898">
-    <failure message="Cannot invoke &quot;java.util.HashSet.iterator()&quot; because &quot;this.newUserRes&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "java.util.HashSet.iterator()" because "this.newUserRes" is null
-	at com.yolo.api.test.suite.invoker.PostTestCases.postCreateUser(PostTestCases.java:26)
-</failure>
-    <system-out>...
-... TestNG 6.14.3 by Cédric Beust (cedric@beust.com)
-...
-
-[INFO] Creating a new user details
-</system-out>
-  </testcase>
+  <testcase name="postCreateUser" classname="com.yolo.api.test.suite.invoker.PostAndUpdateTestCases" time="3.865"/>
+  <testcase name="putUpdateUser" classname="com.yolo.api.test.suite.invoker.PostAndUpdateTestCases" time="2.372"/>
+  <testcase name="addUserPost" classname="com.yolo.api.test.suite.invoker.PostAndUpdateTestCases" time="2.04"/>
+  <testcase name="addUserTodo" classname="com.yolo.api.test.suite.invoker.PostAndUpdateTestCases" time="2.054"/>
+  <testcase name="getListOfPosts" classname="com.yolo.api.test.suite.invoker.GetTestCases" time="0.001"/>
 </testsuite>
